@@ -7,3 +7,5 @@
 # clone and install dev-test-runner
 git clone git@github.com:Shopify/dev-test-runner /src/github.com/shopify/dev-test-runner
 /usr/bin/code --extensions-dir="/home/${USER}/.vscode-server/extensions" --install-extension "$(find /src/github.com/shopify/dev-test-runner/*.vsix | tail -1)"
+
+alias git-br-ls='git branch -av --sort=-committerdate'
